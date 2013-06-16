@@ -36,8 +36,6 @@
             [ "x{?empty|foo=none}" , false ],
             [ "/h{#hello+}" , false ],
             [ "/h#{hello+}" , false ],
-            [ "{keys:1}",  false  ],
-            [ "{+keys:1}",  false  ],
             [ "{;keys:1*}",  false  ],
             [ "?{-join|&|var,list}" , false ],
             [ "/people/{~thing}", false],
